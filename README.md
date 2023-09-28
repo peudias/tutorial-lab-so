@@ -136,4 +136,6 @@ Para copiar os arquivos que criamos inicialmente para dentro do container, devem
 sudo docker cp index.php 3c17eaf5d81e:/var/www/html
 ```
 
-<!-- https://www.homehost.com.br/blog/tutoriais/como-instalar-php-e-apache-usando-docker/ -->
+Referências:
+
+[HOMEHOST](https://www.homehost.com.br/blog/tutoriais/como-instalar-php-e-apache-usando-docker/)
