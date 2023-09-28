@@ -92,6 +92,8 @@ Você pode listar as imagens Docker que possui na sua máquina utilizando o segu
 docker images
 ```
 
+# 5º Passo: Rodando o container do PHP e do Apache no Docker
+
 ![Alt text](image-3.png)
 
 Em seguida criaremos e rodaremos o container do PHP e Apache no Docker:
@@ -136,6 +138,6 @@ Para copiar os arquivos que criamos inicialmente para dentro do container, devem
 sudo docker cp index.php 3c17eaf5d81e:/var/www/html
 ```
 
-Referências:
+# Referências:
 
 [HOMEHOST](https://www.homehost.com.br/blog/tutoriais/como-instalar-php-e-apache-usando-docker/)
